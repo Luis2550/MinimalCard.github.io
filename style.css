@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAF9;
+    font-family: 'Sora', sans-serif;
+}
+
+.container__Card{
+    height: 400px;
+    width: 350px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.card__body{
+    padding: 20px;
+}
+
+.img__Card{
+    height: 175px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.card-tag{
+    background-color: #E6D6FC;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 3px 20px;
+    color: #883AE1;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.card__text{
+    margin-top: 15px;
+}
+
+.title{
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #20293A;
+}
+
+.paragrah{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #6C727F;
+    margin-bottom: 40px;
+}
+
+.card-credits{
+    display: block;
+    color: #6C727F;
+    font-size: 12px;
+}
+
+.line{
+    position: relative;
+    top: -50px;
+    border-bottom: 0.5px solid #6C727F;
+}
+
